@@ -1,0 +1,21 @@
+@import url('/_/css/reset.css');
+@import url('/_/css/rebuild.css');
+
+body {
+	background: black;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+canvas.defender {
+	position: absolute;
+	background: black;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+	
+	

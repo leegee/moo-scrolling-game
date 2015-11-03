@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="developer-mozilla-org">
+<head>
+	<title>HTML 5 Audio Experiment 2</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<link href="css/ScrollingGame.css" media="screen" type="text/css" rel="stylesheet">
+
+	<script type="text/javascript" src="/_/js/modernizer.js"></script>
+	<script type='text/javascript' src='/_/js/mootools.js'></script>
+	<script type='text/javascript' src='/_/js/mootools.more.js'></script>
+	<script type="text/javascript" src="js/ScrollingGame.js"></script>
+
+	<script type='text/javascript'>
+	window.addEvent('domready', function() {
+		var o = new SSS.ScrollingGame({
+			element: 'app-container',
+			fillWindow: true
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<header style='display:none' id="masthead" role="banner">
+		<h1>ScrollingGame Alpha v0.1</h1>
+	</header>
+	
+	<section id="content">
+	    <article class="" role="main" id="app-container"></article>
+	</section>
+	
+	<footer id="site-info" role="contentinfo">
+	</footer>
+</body>
+</html>
